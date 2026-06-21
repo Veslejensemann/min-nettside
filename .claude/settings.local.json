@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm run *)",
+      "Skill(run)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(Start-Sleep -Seconds 3; Invoke-WebRequest -Uri \"http://localhost:3000\" -UseBasicParsing -TimeoutSec 15 | Select-Object StatusCode)",
+      "PowerShell(Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing -TimeoutSec 15 | Select-Object StatusCode, @{n='Length';e={$_.Content.Length}})",
+      "PowerShell(npx --yes playwright --version)",
+      "PowerShell(npx --yes playwright install chromium --with-deps 2>&1 | Select-Object -Last 30)",
+      "PowerShell(node \"C:\\\\Users\\\\turtl\\\\.claude\\\\jobs\\\\641d933a\\\\tmp\\\\screenshot.js\")",
+      "PowerShell(npx --yes -p playwright node \"C:\\\\Users\\\\turtl\\\\.claude\\\\jobs\\\\641d933a\\\\tmp\\\\screenshot.js\")",
+      "WebFetch(domain:localhost)",
+      "PowerShell(node verify-temp.mjs)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell($env:NODE_PATH = \"C:\\\\Users\\\\turtl\\\\AppData\\\\Local\\\\npm-cache\\\\_npx\\\\e41f203b7505f1fb\\\\node_modules\"; node verify-temp.mjs)",
+      "PowerShell($p1 = \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Dokumenter - Søknader\"; $p2 = \"C:\\\\Users\\\\turtl\\\\Desktop\\\\C:\\\\Users\\\\turtl\\\\Desktop\\\\Dokumenter - Søknader\"; Write-Output \"p1 exists: $\\(Test-Path $p1\\)\"; Write-Output \"p2 exists: $\\(Test-Path $p2\\)\")",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Add-Type -AssemblyName System.IO.Compression.FileSystem; $zip = [System.IO.Compression.ZipFile]::OpenRead\\(\"C:\\\\Users\\\\turtl\\\\Documents\\\\BI - Skole\\\\Thesis\\\\Master Thesis.zip\"\\); $zip.Entries | Select-Object FullName, Length | Format-Table -AutoSize; $zip.Dispose\\(\\))",
+      "PowerShell(Add-Type -AssemblyName System.IO.Compression.FileSystem; $zip = [System.IO.Compression.ZipFile]::OpenRead\\(\"C:\\\\Users\\\\turtl\\\\Documents\\\\BI - Skole\\\\Thesis\\\\Master Thesis.zip\"\\); $entry = $zip.Entries | Where-Object { $_.FullName -eq \"Master Thesis/0 - ReadMe.txt\" }; $reader = New-Object System.IO.StreamReader\\($entry.Open\\(\\)\\); $content = $reader.ReadToEnd\\(\\); $reader.Close\\(\\); $zip.Dispose\\(\\); $content)",
+      "PowerShell(\\(Get-Content \"C:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\app\\\\lib\\\\translations.ts\" | Measure-Object -Line\\).Lines)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(Select-String *)",
+      "PowerShell(npx eslint app/page.tsx)",
+      "PowerShell(npx eslint app/page.tsx app/components/NavBar.tsx app/components/Footer.tsx)",
+      "PowerShell(npx tsc --noEmit; npx eslint app/page.tsx app/lib/translations.ts)",
+      "PowerShell(npx eslint app/components/NavBar.tsx)",
+      "WebSearch",
+      "WebFetch(domain:programmeinfo.bi.no)",
+      "PowerShell(npx tsc --noEmit)",
+      "PowerShell(npx eslint app/cv/CvContent.tsx app/lib/translations.ts)",
+      "PowerShell(npx eslint app/cv/CvContent.tsx)",
+      "PowerShell(npx tsc --noEmit; npx eslint app/galleri/page.tsx app/galleri/GalleriContent.tsx)",
+      "WebFetch(domain:www.linkedin.com)",
+      "PowerShell(npx tsc --noEmit; npx eslint app/prosjekter/ProsjekterContent.tsx app/lib/translations.ts)",
+      "PowerShell(npx tsc --noEmit; npx eslint app/lib/translations.ts)",
+      "PowerShell(npx tsc --noEmit; npx eslint app/kontakt/KontaktContent.tsx)"
+    ]
+  }
+}
