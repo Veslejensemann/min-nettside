@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   },
   description:
     "Personlig nettside for Jens Anders Andresen — siviløkonom med MSc in Finance fra BI.",
+  verification: {
+    google: "lHmn_ez1ufaStrAq_BGRURqVHGtsJxvdqUDyCpiQMjU",
+  },
 };
 
 export default function RootLayout({
