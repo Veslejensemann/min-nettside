@@ -34,7 +34,9 @@
       "WebFetch(domain:www.linkedin.com)",
       "PowerShell(npx tsc --noEmit; npx eslint app/prosjekter/ProsjekterContent.tsx app/lib/translations.ts)",
       "PowerShell(npx tsc --noEmit; npx eslint app/lib/translations.ts)",
-      "PowerShell(npx tsc --noEmit; npx eslint app/kontakt/KontaktContent.tsx)"
+      "PowerShell(npx tsc --noEmit; npx eslint app/kontakt/KontaktContent.tsx)",
+      "Bash(cp \"/c/Users/turtl/Desktop/Dokumenter - Søknader/Aksjeskolen - Diplom.jpg\" \"/c/Users/turtl/Desktop/min-nettside/public/documents/aksjeskolen-diplom.jpg\")",
+      "Bash(cp \"/c/Users/turtl/Desktop/Dokumenter - Søknader/Attest SB.pdf\" \"/c/Users/turtl/Desktop/min-nettside/public/documents/attest-sb.pdf\")"
     ]
   }
 }

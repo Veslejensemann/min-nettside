@@ -18,7 +18,8 @@ const translations = {
     },
     home: {
       heroSubtitle: "Siviløkonom · MSc in Finance, BI Norwegian Business School",
-      heroGreeting: "Hei, mitt navn er Jens Anders Andresen.",
+      heroGreeting: "Hei,",
+      heroName: "Mitt navn er Jens Anders Andresen.",
       heroParagraph:
         "Siviløkonom fra BI med fordypning i finans, og for tiden på jakt etter min første relevante jobb etter masteren.",
       heroParagraphTwo:
@@ -398,6 +399,14 @@ const translations = {
           text: "Learnesy - Avansert Excel-modellering",
           href: "/documents/learnesy-diploma.pdf",
         },
+        {
+          text: "Aksjeskolen - DN- Diplom",
+          href: "/documents/aksjeskolen-diplom.jpg",
+        },
+        {
+          text: "Attest Studentbedrift",
+          href: "/documents/attest-sb.pdf",
+        },
       ],
       coursesDownloadLabel: "Se dokumentasjon",
       languagesHeading: "Språk",
@@ -522,7 +531,8 @@ const translations = {
     home: {
       heroSubtitle:
         "Graduate Economist · MSc in Finance, BI Norwegian Business School",
-      heroGreeting: "Hi, my name is Jens Anders Andresen.",
+      heroGreeting: "Hi,",
+      heroName: "My name is Jens Anders Andresen.",
       heroParagraph:
         "A Graduate Economist from BI specializing in finance, currently looking for my first relevant job after my master's.",
       heroParagraphTwo:
@@ -853,7 +863,7 @@ const translations = {
       experienceHeading: "Positions of Trust & Experience",
       experience: [
         {
-          role: "Styremedlem",
+          role: "Boardmember",
           company: "Nesodden Høyre",
           period: "Jan 2020 – May 2021",
           description:
@@ -901,6 +911,14 @@ const translations = {
         {
           text: "Learnesy - Advanced Excel Modelling",
           href: "/documents/learnesy-diploma.pdf",
+        },
+        {
+          text: "Stockschool - DN - Diploma",
+          href: "/documents/aksjeskolen-diplom.jpg",
+        },
+        {
+          text: "Certificate Student Company",
+          href: "/documents/attest-sb.pdf",
         },
       ],
       coursesDownloadLabel: "View certificate",

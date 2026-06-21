@@ -99,6 +99,9 @@ export default function Home() {
             {t.home.heroGreeting}
           </p>
           <p className="text-lg leading-relaxed text-slate-600">
+            {t.home.heroName}
+          </p>
+          <p className="text-lg leading-relaxed text-slate-600">
             {t.home.heroParagraph}
           </p>
           <p className="text-lg leading-relaxed text-slate-600">
