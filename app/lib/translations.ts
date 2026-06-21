@@ -21,9 +21,9 @@ const translations = {
       heroGreeting: "Hei,",
       heroName: "Mitt navn er Jens Anders Andresen.",
       heroParagraph:
-        "Siviløkonom fra BI med fordypning i finans, og for tiden på jakt etter min første relevante jobb etter masteren.",
+        "Siviløkonom fra BI med fordypning i finans.",
       heroParagraphTwo:
-        "I mellom all jobbsøkingen er jeg opptatt med å lære meg mer om AI og maskinlæring, og hvordan det kan brukes i for eksempel finans og analyse.",
+        "I tillegg er jeg opptatt av å lære meg mer om AI og maskinlæring, og hvordan det kan brukes i for eksempel finans og analyse.",
       heroParagraphThree:
         "Denne siden er blant annet et resultat av denne nyskjerrigheten.",
       exploreHeading: "Utforsk siden",
@@ -534,9 +534,9 @@ const translations = {
       heroGreeting: "Hi,",
       heroName: "My name is Jens Anders Andresen.",
       heroParagraph:
-        "A Graduate Economist from BI specializing in finance, currently looking for my first relevant job after my master's.",
+        "A Graduate Economist from BI specializing in finance.",
       heroParagraphTwo:
-        "Between all the job hunting, I've been focused on learning more about AI and machine learning, and how it can be applied to, for example, finance and analysis.",
+        "I'm also focused on learning more about AI and machine learning, and how it can be applied to, for example, finance and analysis.",
       heroParagraphThree:
         "This site is, among other things, a result of that curiosity.",
       exploreHeading: "Explore the site",
