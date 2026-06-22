@@ -135,7 +135,7 @@ export default function CvContent() {
 
         <details className="group mt-6 rounded-2xl border border-slate-200 px-4 py-4 open:pb-4">
           <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-slate-700 [&::-webkit-details-marker]:hidden">
-            {cv.subjectsBachelorLabel}
+            {cv.subjectsMasterLabel}
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -147,7 +147,7 @@ export default function CvContent() {
             </svg>
           </summary>
           <ul className="mt-4 space-y-3">
-            {cv.subjectsBachelor.map((subject) => (
+            {cv.subjectsMaster.map((subject) => (
               <li
                 key={subject.code}
                 className="rounded-xl border border-slate-200 px-4 py-3"
@@ -173,7 +173,7 @@ export default function CvContent() {
 
         <details className="group mt-4 rounded-2xl border border-slate-200 px-4 py-4 open:pb-4">
           <summary className="flex cursor-pointer list-none items-center justify-between text-sm font-semibold text-slate-700 [&::-webkit-details-marker]:hidden">
-            {cv.subjectsMasterLabel}
+            {cv.subjectsBachelorLabel}
             <svg
               viewBox="0 0 24 24"
               fill="none"
@@ -185,7 +185,7 @@ export default function CvContent() {
             </svg>
           </summary>
           <ul className="mt-4 space-y-3">
-            {cv.subjectsMaster.map((subject) => (
+            {cv.subjectsBachelor.map((subject) => (
               <li
                 key={subject.code}
                 className="rounded-xl border border-slate-200 px-4 py-3"

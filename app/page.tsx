@@ -19,11 +19,11 @@ const sectionIcons = {
       d="m12 4.5 9 4.5-9 4.5-9-4.5 9-4.5Zm-6 6.4V16c0 .8 2.7 2.5 6 2.5s6-1.7 6-2.5v-5.1"
     />
   ),
-  galleri: (
+  prosjekter: (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      d="M3.75 6.75h2.4l1.2-1.8h5.3l1.2 1.8h2.4a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5Zm8.25 6a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"
+      d="M12 3.75c-3.45 0-6 2.55-6 5.7 0 2.1 1.05 3.3 1.95 4.2.6.6.9 1.05.9 1.8h6.3c0-.75.3-1.2.9-1.8.9-.9 1.95-2.1 1.95-4.2 0-3.15-2.55-5.7-6-5.7ZM9.75 18h4.5M10.5 20.25h3"
     />
   ),
   blogg: (
@@ -33,11 +33,11 @@ const sectionIcons = {
       d="M16.5 3.75 19.5 6.75 9 17.25l-4.5 1.5 1.5-4.5 10.5-10.5Z"
     />
   ),
-  prosjekter: (
+  galleri: (
     <path
       strokeLinecap="round"
       strokeLinejoin="round"
-      d="M12 3.75c-3.45 0-6 2.55-6 5.7 0 2.1 1.05 3.3 1.95 4.2.6.6.9 1.05.9 1.8h6.3c0-.75.3-1.2.9-1.8.9-.9 1.95-2.1 1.95-4.2 0-3.15-2.55-5.7-6-5.7ZM9.75 18h4.5M10.5 20.25h3"
+      d="M3.75 6.75h2.4l1.2-1.8h5.3l1.2 1.8h2.4a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H3.75a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5Zm8.25 6a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"
     />
   ),
   kontakt: (
@@ -52,9 +52,9 @@ const sectionIcons = {
 const sectionHrefs = {
   cv: "/cv",
   master: "/master",
-  galleri: "/galleri",
-  blogg: "/blogg",
   prosjekter: "/prosjekter",
+  blogg: "/blogg",
+  galleri: "/galleri",
   kontakt: "/kontakt",
 } as const;
 

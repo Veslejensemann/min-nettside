@@ -36,7 +36,20 @@
       "PowerShell(npx tsc --noEmit; npx eslint app/lib/translations.ts)",
       "PowerShell(npx tsc --noEmit; npx eslint app/kontakt/KontaktContent.tsx)",
       "Bash(cp \"/c/Users/turtl/Desktop/Dokumenter - Søknader/Aksjeskolen - Diplom.jpg\" \"/c/Users/turtl/Desktop/min-nettside/public/documents/aksjeskolen-diplom.jpg\")",
-      "Bash(cp \"/c/Users/turtl/Desktop/Dokumenter - Søknader/Attest SB.pdf\" \"/c/Users/turtl/Desktop/min-nettside/public/documents/attest-sb.pdf\")"
+      "Bash(cp \"/c/Users/turtl/Desktop/Dokumenter - Søknader/Attest SB.pdf\" \"/c/Users/turtl/Desktop/min-nettside/public/documents/attest-sb.pdf\")",
+      "Bash(find public *)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -sI http://localhost:3000/documents/attest-sb.pdf)",
+      "Bash(curl -sI http://localhost:3000/documents/bmc-certificate.pdf)",
+      "PowerShell(Start-Process \"msedge\" -ArgumentList \"C:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\attest-sb.pdf\")",
+      "Bash(npm view *)",
+      "Bash(npm install *)",
+      "Bash(node fix-pdf-tmp.mjs)",
+      "Bash(mkdir -p /tmp/pdf-backup)",
+      "Bash(mv public/documents/attest-sb-original-backup.pdf /tmp/pdf-backup/attest-sb-original-backup.pdf)",
+      "Bash(npm uninstall *)",
+      "Bash(curl *)",
+      "Bash(npx tsc *)"
     ]
   }
 }

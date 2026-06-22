@@ -7,7 +7,7 @@ const translations = {
       cv: "CV",
       master: "Master",
       galleri: "Galleri",
-      blogg: "Blogg",
+      blogg: "Tanker",
       prosjekter: "Prosjekter",
       kontakt: "Kontakt",
       toggleLabel: "EN",
@@ -23,7 +23,7 @@ const translations = {
       heroParagraph:
         "Siviløkonom fra BI med fordypning i finans.",
       heroParagraphTwo:
-        "I tillegg er jeg opptatt av å lære meg mer om AI og maskinlæring, og hvordan det kan brukes i for eksempel finans og analyse.",
+        "For tiden er jeg opptatt av å lære meg mer om AI og maskinlæring, og hvordan det kan brukes i for eksempel finans og analyse.",
       heroParagraphThree:
         "Denne siden er blant annet et resultat av denne nyskjerrigheten.",
       exploreHeading: "Utforsk siden",
@@ -41,7 +41,7 @@ const translations = {
           description: "Mitt bildegalleri.",
         },
         blogg: {
-          title: "Blogg",
+          title: "Tanker",
           description: "Refleksjoner om finans og livet for øvrig.",
         },
         prosjekter: {
@@ -381,6 +381,7 @@ const translations = {
         "R",
         "Regresjonsanalyse",
         "Risikostyring",
+        "Samfunnsøkonomisk analyse",
         "Stata",
         "Verdsettelse",
         "Word",
@@ -411,7 +412,7 @@ const translations = {
       coursesDownloadLabel: "Se dokumentasjon",
       languagesHeading: "Språk",
       languages: [
-        "Norsk – flytende skriftlig og muntlig",
+        "Norsk – Morsmål",
         "Engelsk – flytende skriftlig og muntlig",
       ],
       interestsHeading: "Interesser",
@@ -455,7 +456,7 @@ const translations = {
       nextLabel: "Neste bilde",
     },
     blogg: {
-      title: "Blogg",
+      title: "Tanker",
       intro: "Her samler jeg korte refleksjoner — om finans og livet for øvrig.",
       posts: [
         {
@@ -477,28 +478,37 @@ const translations = {
     },
     prosjekter: {
       title: "Prosjekter",
-      intro: "Ting jeg bygger og utforsker i fritiden — fra analyse til kode.",
+      intro: "Ting jeg bygger og utforsker på og utenfor fritiden - som jeg er spesielt stolt av.",
       projectLinkLabel: "Les artikkelen",
+      readMoreLabel: "Les mer",
+      readLessLabel: "Vis mindre",
       projects: [
         {
           title: "Hakuna Potata",
+          startYear: 2019,
           description:
             "Studentbedrift jeg var med å starte og var CFO for, som del av et entreprenørskapsprogram ved BI. Vi drev en food truck som solgte bakte poteter fra Spikersuppa i Oslo, rettet mot tilskuere og løpere under Sentrumsløpet.",
-          tags: ["Entreprenørskap", "Studentbedrift", "Økonomi"],
+          tags: ["Entreprenørskap", "Studentbedrift"],
           href: "https://www.linkedin.com/pulse/unge-entrepren%C3%B8rer-r%C3%A5-skaperglede-og-varme-poteter-mc-carthy/",
         },
         {
           title: "Denne nettsiden",
+          startYear: 2026,
           description:
-            "Den personlige porteføljesiden du ser nå. Bygget med Next.js (App Router) og TypeScript, stylet med Tailwind CSS, og fullt to-språklig (norsk/engelsk) via et eget oversettelsessystem som dekker CV, masteroppgave, galleri, blogg og prosjekter. Bygget i samarbeid med Claude Code som AI-assistent.",
-          tags: ["Next.js", "TypeScript", "Tailwind CSS", "AI-assistert utvikling"],
+            "Nettsiden du besøker nå, som jeg har utviklet og designet selv. Bygget med Visual Studio, Claude Code AI, og hostet på GitHub og Vercel under eget domenenavn.",
+          tags: ["Visual Studio Code", "GitHub", "Vercel", "Claude AI", "Claude Code"],
           href: "",
         },
         {
-          title: "[Prosjektnavn]",
-          description: "[Kort beskrivelse av hva prosjektet handler om.]",
-          tags: ["[Tag]", "[Tag]"],
-          href: "",
+          title: "Intervju med Oljefondssjef Nicolai Tangen",
+          startYear: 2022,
+          description: [
+            "På vegne av mine medstudenter ved Handelshøyskolen BI fikk jeg muligheten til å intervjue Nicolai Tangen, administrerende direktør i Norges Bank Investment Management.",
+            "Dette var langt utenfor komfortsonen min, men det er som Tangen selv sa: ''De største tingene i livet skjer utenfor komfortsonen.''",
+            "En stor takk til Nicolai Tangen og NBIM, Giovanni Pagliardi og BI for å ha tilrettelagt arrangementet, samt mine medstudenter Nicola Martini, Valeria Lo Re, Anelill Sandnes Engen, Isak Rygg og Ole Martin Bø – det var en glede å jobbe med dere.",
+          ],
+          tags: ["Offentlig tale", "NBIM", "BI"],
+          href: "https://www.linkedin.com/posts/jens-anders-andresen_great-lecture-and-career-event-with-ceo-of-activity-6976918073425453056-pQmv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYi_gBhdkr1yO6bx9voH4NufbgEFAu8SQ",
         },
       ],
     },
@@ -519,7 +529,7 @@ const translations = {
       cv: "CV",
       master: "Master's",
       galleri: "Gallery",
-      blogg: "Blog",
+      blogg: "Thoughts",
       prosjekter: "Projects",
       kontakt: "Contact",
       toggleLabel: "NO",
@@ -554,7 +564,7 @@ const translations = {
           description: "My photo gallery.",
         },
         blogg: {
-          title: "Blog",
+          title: "Thoughts",
           description: "Reflections on finance and life in general.",
         },
         prosjekter: {
@@ -968,7 +978,7 @@ const translations = {
       nextLabel: "Next image",
     },
     blogg: {
-      title: "Blog",
+      title: "Thoughts",
       intro: "Here I collect short reflections — on finance and life in general.",
       posts: [
         {
@@ -990,11 +1000,14 @@ const translations = {
     },
     prosjekter: {
       title: "Projects",
-      intro: "Things I build and explore in my spare time — from analysis to code.",
+      intro: "Things I build and explore in and outside of my spare time — that I'm especially proud of.",
       projectLinkLabel: "Read the article",
+      readMoreLabel: "Read more",
+      readLessLabel: "Show less",
       projects: [
         {
           title: "Hakuna Potata",
+          startYear: 2019,
           description:
             "A student company I co-founded and served as CFO for, part of an entrepreneurship program at BI. We ran a food truck selling baked potatoes from Spikersuppa in Oslo, targeting spectators and runners during the Sentrumsløpet race.",
           tags: ["Entrepreneurship", "Student Company", "Finance"],
@@ -1002,16 +1015,22 @@ const translations = {
         },
         {
           title: "This website",
+          startYear: 2026,
           description:
             "The personal portfolio site you're looking at right now. Built with Next.js (App Router) and TypeScript, styled with Tailwind CSS, and fully bilingual (Norwegian/English) via a custom translation system covering the CV, master's thesis, gallery, blog and projects. Built in collaboration with Claude Code as an AI pair-programmer.",
           tags: ["Next.js", "TypeScript", "Tailwind CSS", "AI-Assisted Development"],
           href: "",
         },
         {
-          title: "[Project name]",
-          description: "[Brief description of what the project is about.]",
-          tags: ["[Tag]", "[Tag]"],
-          href: "",
+          title: "Interview with Oil Fund CEO Nicolai Tangen",
+          startYear: 2022,
+          description: [
+            "On behalf of my fellow students at BI Norwegian Business School, I had the opportunity to interview Nicolai Tangen, CEO of Norges Bank Investment Management.",
+            "This was far outside my comfort zone, but as Tangen himself said: ''The biggest things in life happen outside your comfort zone.''",
+            "A huge thanks to Nicolai Tangen and NBIM, Giovanni Pagliardi and BI for organizing the event, as well as my fellow students Nicola Martini, Valeria Lo Re, Anelill Sandnes Engen, Isak Rygg and Ole Martin Bø – it was a pleasure working with you.",
+          ],
+          tags: ["Public Speaking", "NBIM", "BI"],
+          href: "https://www.linkedin.com/posts/jens-anders-andresen_great-lecture-and-career-event-with-ceo-of-activity-6976918073425453056-pQmv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYi_gBhdkr1yO6bx9voH4NufbgEFAu8SQ",
         },
       ],
     },

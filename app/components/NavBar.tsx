@@ -12,9 +12,9 @@ export default function NavBar() {
     { href: "/", label: t.nav.hjem },
     { href: "/cv", label: t.nav.cv },
     { href: "/master", label: t.nav.master },
-    { href: "/galleri", label: t.nav.galleri },
-    { href: "/blogg", label: t.nav.blogg },
     { href: "/prosjekter", label: t.nav.prosjekter },
+    { href: "/blogg", label: t.nav.blogg },
+    { href: "/galleri", label: t.nav.galleri },
     { href: "/kontakt", label: t.nav.kontakt },
   ];
 
