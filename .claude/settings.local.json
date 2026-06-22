@@ -49,7 +49,10 @@
       "Bash(mv public/documents/attest-sb-original-backup.pdf /tmp/pdf-backup/attest-sb-original-backup.pdf)",
       "Bash(npm uninstall *)",
       "Bash(curl *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(git fetch *)",
+      "Bash(npx eslint *)",
+      "Bash(grep -E \"^C:\\\\\\\\\\\\\\\\|warning|error\")"
     ]
   }
 }
