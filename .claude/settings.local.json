@@ -52,7 +52,8 @@
       "Bash(npx tsc *)",
       "Bash(git fetch *)",
       "Bash(npx eslint *)",
-      "Bash(grep -E \"^C:\\\\\\\\\\\\\\\\|warning|error\")"
+      "Bash(grep -E \"^C:\\\\\\\\\\\\\\\\|warning|error\")",
+      "Bash(pdftotext \"C:\\\\Users\\\\turtl\\\\Documents\\\\BI - Skole\\\\State and the Market\\\\State and The Market V.2.pdf\" -)"
     ]
   }
 }

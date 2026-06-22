@@ -510,6 +510,14 @@ const translations = {
           tags: ["Offentlig tale", "NBIM", "BI"],
           href: "https://www.linkedin.com/posts/jens-anders-andresen_great-lecture-and-career-event-with-ceo-of-activity-6976918073425453056-pQmv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYi_gBhdkr1yO6bx9voH4NufbgEFAu8SQ",
         },
+        {
+          title: "Formuesskatten etter 2021-valget",
+          startYear: 2024,
+          description:
+            "Semesteroppgave fra kurset 'State and the Market' ved BI, som analyserer den politiske prosessen bak økningen i den norske formuesskatten etter valget i 2021. Med utgangspunkt i rational choice-teori og institusjonell teori ser oppgaven på hvordan skatteøkningen har fått flere av Norges rikeste til å flytte til lavskatteland som Sveits, og diskuterer balansen mellom omfordeling og økonomisk konkurransekraft i velferdsstaten.",
+          tags: ["Skatt", "Politikk", "BI"],
+          href: "/documents/state-and-the-market.pdf",
+        },
       ],
     },
     kontakt: {
@@ -1031,6 +1039,14 @@ const translations = {
           ],
           tags: ["Public Speaking", "NBIM", "BI"],
           href: "https://www.linkedin.com/posts/jens-anders-andresen_great-lecture-and-career-event-with-ceo-of-activity-6976918073425453056-pQmv?utm_source=share&utm_medium=member_desktop&rcm=ACoAACiYi_gBhdkr1yO6bx9voH4NufbgEFAu8SQ",
+        },
+        {
+          title: "Norway's Wealth Tax After the 2021 Election",
+          startYear: 2024,
+          description:
+            "A term paper from the BI course 'State and the Market', analyzing the political process behind the increase in Norway's wealth tax following the 2021 election. Drawing on Rational Choice Theory and Institutional Theory, the paper examines how the tax increase has driven several of Norway's wealthiest individuals to relocate to low-tax countries such as Switzerland, and discusses the balance between redistribution and economic competitiveness within the welfare state.",
+          tags: ["Tax Policy", "Politics", "BI"],
+          href: "/documents/state-and-the-market.pdf",
         },
       ],
     },
