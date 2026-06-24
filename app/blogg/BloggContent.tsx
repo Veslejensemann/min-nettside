@@ -19,15 +19,20 @@ export default function BloggContent() {
             key={i}
             className="rounded-2xl border border-dashed border-slate-300 p-6"
           >
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h2 className="text-lg font-semibold text-slate-700">
-                {post.title}
-              </h2>
-              <span className="text-sm text-slate-400">{post.date}</span>
-            </div>
+            <h2 className="text-lg font-semibold text-slate-700">
+              {post.title}
+            </h2>
             <p className="mt-3 text-sm leading-relaxed text-slate-500">
               {post.excerpt}
             </p>
+            <a
+              href={post.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-block text-sm font-medium text-amber-700 hover:text-amber-800"
+            >
+              {blogg.downloadLabel}
+            </a>
           </article>
         ))}
       </div>

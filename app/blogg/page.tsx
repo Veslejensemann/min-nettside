@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BloggContent from "./BloggContent";
 
 export const metadata: Metadata = {
-  title: "Tanker",
+  title: "Kode",
 };
 
 export default function Blogg() {

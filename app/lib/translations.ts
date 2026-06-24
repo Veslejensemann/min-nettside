@@ -7,7 +7,7 @@ const translations = {
       cv: "CV",
       master: "Master",
       galleri: "Galleri",
-      blogg: "Tanker",
+      blogg: "Kode",
       prosjekter: "Prosjekter",
       kontakt: "Kontakt",
       toggleLabel: "EN",
@@ -41,12 +41,12 @@ const translations = {
           description: "Mitt bildegalleri.",
         },
         blogg: {
-          title: "Tanker",
-          description: "Refleksjoner og tanker"
+          title: "Kode",
+          description: "Kode jeg har laget og vil dele."
         },
         prosjekter: {
           title: "Prosjekter",
-          description: "Ting jeg bygger og utforsker på fritiden.",
+          description: "Ting jeg er spesielt stolt av.",
         },
         kontakt: {
           title: "Kontakt",
@@ -485,29 +485,39 @@ const translations = {
       nextLabel: "Neste bilde",
     },
     blogg: {
-      title: "Tanker",
-      intro: "Her samler jeg korte refleksjoner — om finans og livet for øvrig.",
+      title: "Kode",
+      intro: "Her samler jeg kode jeg har laget og vil dele.",
+      downloadLabel: "Last ned koden",
       posts: [
         {
-          title: "[Tittel på innlegg]",
-          date: "[Dato]",
-          excerpt: "[Kort utdrag eller innledning til refleksjonen.]",
+          title: "Oppsummeringsstatistikk (R)",
+          excerpt:
+            "R-skript som henter ut verdier fra flere Excel-filer for hvert år (2002–2022) og beregner oppsummeringsstatistikk - gjennomsnitt, standardavvik, min/maks og antall observasjoner - for hver fil.",
+          href: "/documents/summary-stat-code.R",
         },
         {
-          title: "[Tittel på innlegg]",
-          date: "[Dato]",
-          excerpt: "[Kort utdrag eller innledning til refleksjonen.]",
+          title: "Excel til CSV-konverterer (R)",
+          excerpt:
+            "R-skript som leser aksjekursdata fra en Excel-fil og deler den opp i separate CSV-filer for hvert enkelt selskap.",
+          href: "/documents/excel-to-csv-converter-code.R",
         },
         {
-          title: "[Tittel på innlegg]",
-          date: "[Dato]",
-          excerpt: "[Kort utdrag eller innledning til refleksjonen.]",
+          title: "Regresjonsutfylling av ESG-data (R)",
+          excerpt:
+            "R-skript som bruker lineær regresjon mot år for å estimere og fylle inn manglende verdier i et ESG-datasett, og lagrer det komplette datasettet til en ny Excel-fil.",
+          href: "/documents/regression-esg-code.R",
+        },
+        {
+          title: "Eksporter til Excel (R)",
+          excerpt:
+            "R-skript som samler simulerte aksjekurser og avkastninger for åtte selskaper i to datasett, og eksporterer dem til Excel-filer.",
+          href: "/documents/export-to-excel-code.R",
         },
       ],
     },
     prosjekter: {
       title: "Prosjekter",
-      intro: "Ting jeg bygger og utforsker på og utenfor fritiden - som jeg er spesielt stolt av.",
+      intro: "Ting jeg har gjort som jeg er spesielt stolt av.",
       projectLinkLabel: "Les artikkelen",
       readMoreLabel: "Les mer",
       readLessLabel: "Vis mindre",
@@ -574,7 +584,7 @@ const translations = {
       cv: "CV",
       master: "Master's",
       galleri: "Gallery",
-      blogg: "Thoughts",
+      blogg: "Code",
       prosjekter: "Projects",
       kontakt: "Contact",
       toggleLabel: "NO",
@@ -609,8 +619,8 @@ const translations = {
           description: "My photo gallery.",
         },
         blogg: {
-          title: "Thoughts",
-          description: "Reflections and thoughts.",
+          title: "Code",
+          description: "Code I've built and want to share.",
         },
         prosjekter: {
           title: "Projects",
@@ -1052,23 +1062,33 @@ const translations = {
       nextLabel: "Next image",
     },
     blogg: {
-      title: "Thoughts",
-      intro: "Here I collect short reflections — on finance and life in general.",
+      title: "Code",
+      intro: "Here I collect code I've built and want to share.",
+      downloadLabel: "Download the code",
       posts: [
         {
-          title: "[Post title]",
-          date: "[Date]",
-          excerpt: "[Short excerpt or introduction to the reflection.]",
+          title: "Summary Statistics (R)",
+          excerpt:
+            "An R script that pulls values from several Excel files for each year (2002–2022) and calculates summary statistics - mean, standard deviation, min/max and number of observations - for each file.",
+          href: "/documents/summary-stat-code.R",
         },
         {
-          title: "[Post title]",
-          date: "[Date]",
-          excerpt: "[Short excerpt or introduction to the reflection.]",
+          title: "Excel to CSV Converter (R)",
+          excerpt:
+            "An R script that reads stock price data from an Excel file and splits it into separate CSV files for each individual company.",
+          href: "/documents/excel-to-csv-converter-code.R",
         },
         {
-          title: "[Post title]",
-          date: "[Date]",
-          excerpt: "[Short excerpt or introduction to the reflection.]",
+          title: "ESG Data Regression Fill (R)",
+          excerpt:
+            "An R script that uses linear regression against year to estimate and fill in missing values in an ESG dataset, then saves the completed dataset to a new Excel file.",
+          href: "/documents/regression-esg-code.R",
+        },
+        {
+          title: "Export to Excel (R)",
+          excerpt:
+            "An R script that compiles simulated stock prices and returns for eight companies into two datasets and exports them to Excel files.",
+          href: "/documents/export-to-excel-code.R",
         },
       ],
     },

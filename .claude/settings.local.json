@@ -58,7 +58,9 @@
       "Read(//c/Users/turtl/Desktop/Dokumenter - Søknader/**)",
       "Bash(cp \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Dokumenter - Søknader\\\\Python Data Structures.pdf\" \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\python-data-structures-certificate.pdf\" && ls -la \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\\")",
       "Bash(netstat -ano)",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(ls -la \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Summary Stat Code R.R\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Excel to CSV Converter Code R.R\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Regresson ESG Code R.R\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Export to EXCEL Code R.R\")",
+      "Read(//c/Users/turtl/Desktop/**)"
     ],
     "additionalDirectories": [
       "C:\\Users\\turtl\\Desktop\\Dokumenter - Søknader"
