@@ -53,7 +53,15 @@
       "Bash(git fetch *)",
       "Bash(npx eslint *)",
       "Bash(grep -E \"^C:\\\\\\\\\\\\\\\\|warning|error\")",
-      "Bash(pdftotext \"C:\\\\Users\\\\turtl\\\\Documents\\\\BI - Skole\\\\State and the Market\\\\State and The Market V.2.pdf\" -)"
+      "Bash(pdftotext \"C:\\\\Users\\\\turtl\\\\Documents\\\\BI - Skole\\\\State and the Market\\\\State and The Market V.2.pdf\" -)",
+      "Bash(ls -la \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Dokumenter - Søknader\\\\Python Data Structures.pdf\")",
+      "Read(//c/Users/turtl/Desktop/Dokumenter - Søknader/**)",
+      "Bash(cp \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Dokumenter - Søknader\\\\Python Data Structures.pdf\" \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\python-data-structures-certificate.pdf\" && ls -la \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\\")",
+      "Bash(netstat -ano)",
+      "Bash(git checkout *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\turtl\\Desktop\\Dokumenter - Søknader"
     ]
   }
 }

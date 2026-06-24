@@ -69,19 +69,42 @@ export default function CvContent() {
         </h2>
         <ul className="mt-4 space-y-2">
           {cv.courses.map((course) => (
-            <li
-              key={course.text}
-              className="flex flex-wrap items-center justify-between gap-2 rounded-xl border border-slate-200 px-4 py-3 text-sm text-slate-600"
-            >
-              <span>{course.text}</span>
-              <a
-                href={course.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-none text-sm font-medium text-amber-700 hover:text-amber-800"
-              >
-                {cv.coursesDownloadLabel}
-              </a>
+            <li key={course.text}>
+              <details className="group rounded-xl border border-slate-200 px-4 py-3 open:pb-4">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-2 text-sm font-medium text-slate-700 [&::-webkit-details-marker]:hidden">
+                  {course.text}
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    className="h-4 w-4 flex-none text-slate-400 transition-transform group-open:rotate-180"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m6 9 6 6 6-6" />
+                  </svg>
+                </summary>
+                <p className="mt-3 text-sm leading-relaxed text-slate-500">
+                  {course.description}
+                </p>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {course.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-600"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <a
+                  href={course.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-block text-sm font-medium text-amber-700 hover:text-amber-800"
+                >
+                  {cv.coursesDownloadLabel}
+                </a>
+              </details>
             </li>
           ))}
         </ul>

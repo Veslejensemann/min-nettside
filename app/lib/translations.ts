@@ -42,7 +42,7 @@ const translations = {
         },
         blogg: {
           title: "Tanker",
-          description: "Refleksjoner om finans og livet for øvrig.",
+          description: "Refleksjoner og tanker"
         },
         prosjekter: {
           title: "Prosjekter",
@@ -72,6 +72,13 @@ const translations = {
           period: "Aug 2017 – Jul 2020",
           description:
             "Siviløkonomutdanning med bred faglig base innen finans, regnskap, makroøkonomi, strategi og forretningsjus.",
+        },
+        {
+          degree: "Studiespesialiserende",
+          school: "Nesodden videregående skole",
+          period: "Aug 2014 – Jun 2017",
+          description:
+            "Studiespesialisering med fordypning i engelsk og samfunnsøkonomi, samt matematikk S og teknologi og forskningslære.",
         },
       ],
       subjectsHeading: "Fag fra studiet",
@@ -390,23 +397,45 @@ const translations = {
       courses: [
         {
           text: "Bloomberg Market Concepts (BMC)",
+          description:
+            "Bloombergs egen e-læringskurs i finansmarkeder, med fokus på makroøkonomi, valuta, renter og aksjemarkeder. Dekker også bl.a. hvordan sentralbanker, BNP, inflasjon og arbeidsmarked påvirker finansmarkedene.",
+          tags: ["Makroøkonomi", "Finansmarkeder", "Renter"],
           href: "/documents/bmc-certificate.pdf",
         },
         {
           text: "AmplifyME Simulation - diplomnivå 4",
+          description:
+            "Simulert handelsgulv hvor jeg tok rollen som trader og megler under tidspress, med ordreutførelse, risikostyring og kundekommunikasjon i et simulert markedsmiljø. Fullført på høyeste diplomnivå (nivå 4).",
+          tags: ["Trading", "Risikostyring", "Kapitalmarkeder"],
           href: "/documents/amplifyme-diploma.pdf",
         },
         {
-          text: "Learnesy - Avansert Excel-modellering",
+          text: "Learnesy - Excel - Bas Norsk",
+          description:
+            "Learnesy-kurs i grunnleggende Excel-bruk på norsk, med vekt på formler, funksjoner og celleformatering for å sette opp enkle beregninger og oversikter - et fundament for videre arbeid med tall i Excel.",
+          tags: ["Excel", "Formler og funksjoner", "Dataoversikt"],
           href: "/documents/learnesy-diploma.pdf",
         },
         {
           text: "Aksjeskolen - DN- Diplom",
+          description:
+            "Dagens Næringslivs aksjeskole - et kurs i aksjeinvestering som dekker grunnleggende verdsettelse, porteføljesammensetning, risiko og analyse av norske og internasjonale aksjer.",
+          tags: ["Aksjer", "Investering", "Porteføljeteori"],
           href: "/documents/aksjeskolen-diplom.jpg",
         },
         {
           text: "Attest Studentbedrift",
+          description:
+            "Attestert deltakelse i Ungt Entreprenørskaps studentbedrift-program ved BI, hvor jeg var CFO for Hakuna Potata. Ansvar for budsjettering, regnskap og økonomistyring av en reell bedrift gjennom et helt semester.",
+          tags: ["Entreprenørskap", "Regnskap", "Budsjettering"],
           href: "/documents/attest-sb.pdf",
+        },
+        {
+          text: "Python Data Structures (Coursera, University of Michigan)",
+          description:
+            "Del av spesialiseringen Python for Everybody fra University of Michigan. Dekker Python-grunnlag som variabler, løkker og funksjoner, samt datastrukturer som lister, dictionaries, tupler og filbehandling.",
+          tags: ["Python", "Programmering", "Datastrukturer"],
+          href: "/documents/python-data-structures-certificate.pdf",
         },
       ],
       coursesDownloadLabel: "Se dokumentasjon",
@@ -518,6 +547,14 @@ const translations = {
           tags: ["Skatt", "Politikk", "BI"],
           href: "/documents/state-and-the-market.pdf",
         },
+        {
+          title: "Python for Everybody (Coursera)",
+          startYear: 2026,
+          description:
+            "Fullført de to første kursene i Python for Everybody-spesialiseringen fra University of Michigan på Coursera: 'Programming for Everybody (Getting Started with Python)' og 'Python Data Structures'. Kursene dekker grunnleggende programmeringskonsepter som variabler, løkker, funksjoner og datastrukturer som lister, dictionaries og tupler i Python.",
+          tags: ["Python", "Coursera", "Programmering"],
+          href: "/documents/python-data-structures-certificate.pdf",
+        },
       ],
     },
     kontakt: {
@@ -573,7 +610,7 @@ const translations = {
         },
         blogg: {
           title: "Thoughts",
-          description: "Reflections on finance and life in general.",
+          description: "Reflections and thoughts.",
         },
         prosjekter: {
           title: "Projects",
@@ -603,6 +640,13 @@ const translations = {
           period: "Aug 2017 – Jul 2020",
           description:
             "Business degree with a broad academic foundation in finance, accounting, macroeconomics, strategy and business law.",
+        },
+        {
+          degree: "General Studies (Upper Secondary School)",
+          school: "Nesodden Upper Secondary School",
+          period: "Aug 2014 – Jun 2017",
+          description:
+            "Specialized in English and Economics, alongside advanced mathematics (S) and technology and research theory.",
         },
       ],
       subjectsHeading: "Courses from my studies",
@@ -920,23 +964,45 @@ const translations = {
       courses: [
         {
           text: "Bloomberg Market Concepts (BMC)",
+          description:
+            "Bloomberg's self-paced e-learning course on financial markets, focusing on macroeconomics, currencies, fixed income and equities. Covers how central banks, GDP, inflation and the labor market drive financial markets.",
+          tags: ["Macroeconomics", "Financial Markets", "Fixed Income"],
           href: "/documents/bmc-certificate.pdf",
         },
         {
           text: "AmplifyME Simulation - diploma level 4",
+          description:
+            "A simulated trading floor where I took on the role of trader and broker under time pressure, handling order execution, risk management and client communication in a simulated market environment. Completed at the highest diploma level (level 4).",
+          tags: ["Trading", "Risk Management", "Capital Markets"],
           href: "/documents/amplifyme-diploma.pdf",
         },
         {
-          text: "Learnesy - Advanced Excel Modelling",
+          text: "Learnesy - Excel - Basic (Norwegian)",
+          description:
+            "A Learnesy course in fundamental Excel skills delivered in Norwegian, covering formulas, functions and cell formatting to build simple calculations and overviews - a foundation for further work with numbers in Excel.",
+          tags: ["Excel", "Formulas & Functions", "Data Overview"],
           href: "/documents/learnesy-diploma.pdf",
         },
         {
           text: "Stockschool - DN - Diploma",
+          description:
+            "Dagens Næringsliv's stock market course covering the fundamentals of equity investing, including valuation basics, portfolio construction, risk and analysis of Norwegian and international stocks.",
+          tags: ["Equities", "Investing", "Portfolio Theory"],
           href: "/documents/aksjeskolen-diplom.jpg",
         },
         {
           text: "Certificate Student Company",
+          description:
+            "Certified participation in Young Enterprise's student company programme at BI, where I served as CFO for Hakuna Potata. Responsible for budgeting, bookkeeping and financial management of a real company over a full semester.",
+          tags: ["Entrepreneurship", "Accounting", "Budgeting"],
           href: "/documents/attest-sb.pdf",
+        },
+        {
+          text: "Python Data Structures (Coursera, University of Michigan)",
+          description:
+            "Part of the Python for Everybody specialization from the University of Michigan. Covers Python fundamentals such as variables, loops and functions, along with data structures like lists, dictionaries, tuples and file handling.",
+          tags: ["Python", "Programming", "Data Structures"],
+          href: "/documents/python-data-structures-certificate.pdf",
         },
       ],
       coursesDownloadLabel: "View certificate",
@@ -1047,6 +1113,14 @@ const translations = {
             "A term paper from the BI course 'State and the Market', analyzing the political process behind the increase in Norway's wealth tax following the 2021 election. Drawing on Rational Choice Theory and Institutional Theory, the paper examines how the tax increase has driven several of Norway's wealthiest individuals to relocate to low-tax countries such as Switzerland, and discusses the balance between redistribution and economic competitiveness within the welfare state.",
           tags: ["Tax Policy", "Politics", "BI"],
           href: "/documents/state-and-the-market.pdf",
+        },
+        {
+          title: "Python for Everybody (Coursera)",
+          startYear: 2026,
+          description:
+            "Completed the first two courses in the Python for Everybody specialization from the University of Michigan on Coursera: 'Programming for Everybody (Getting Started with Python)' and 'Python Data Structures'. The courses cover core programming concepts such as variables, loops, functions, and data structures like lists, dictionaries, and tuples in Python.",
+          tags: ["Python", "Coursera", "Programming"],
+          href: "/documents/python-data-structures-certificate.pdf",
         },
       ],
     },
