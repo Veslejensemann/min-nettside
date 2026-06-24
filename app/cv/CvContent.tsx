@@ -2,6 +2,66 @@
 
 import { useLanguage } from "@/app/context/LanguageContext";
 
+const interestIcons: Record<string, React.ReactNode> = {
+  golf: (
+    <>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M7 21V4l7 2.5L7 9" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 21h10" />
+      <circle cx="16.5" cy="19.5" r="1.1" />
+    </>
+  ),
+  tennis: (
+    <>
+      <circle cx="12" cy="12" r="8.25" />
+      <path strokeLinecap="round" d="M5.2 6c2.8 3.3 2.8 8.7 0 12" />
+      <path strokeLinecap="round" d="M18.8 6c-2.8 3.3-2.8 8.7 0 12" />
+    </>
+  ),
+  frisbeegolf: (
+    <>
+      <ellipse cx="13" cy="10" rx="7.5" ry="2.75" transform="rotate(-12 13 10)" />
+      <path strokeLinecap="round" d="M3 15.5h3M2 18.5h4M5.5 12.5h2.5" />
+    </>
+  ),
+  matlagning: (
+    <>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 11h16" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4 11a8 8 0 0 0 16 0" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M2 11h2M20 11h2" />
+      <path strokeLinecap="round" d="M9 4c0 1-1 1-1 2s1 1 1 2M14 4c0 1-1 1-1 2s1 1 1 2" />
+    </>
+  ),
+  styrketrening: (
+    <>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M6 9v6M4 10.5v3" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M18 9v6M20 10.5v3" />
+    </>
+  ),
+  gaming: (
+    <>
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M7.5 8h9A4.5 4.5 0 0 1 21 12.5v3a2 2 0 0 1-3.6 1.2L16 15H8l-1.4 1.7A2 2 0 0 1 3 15.5v-3A4.5 4.5 0 0 1 7.5 8Z"
+      />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M7.75 11v3M6.25 12.5h3" />
+      <circle cx="16.25" cy="11.25" r="0.6" fill="currentColor" />
+      <circle cx="18.25" cy="13.25" r="0.6" fill="currentColor" />
+    </>
+  ),
+  fotografering: (
+    <>
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M3 9a2 2 0 0 1 2-2h1.2a1 1 0 0 0 .8-.4l1-1.3a1 1 0 0 1 .8-.4h6.4a1 1 0 0 1 .8.4l1 1.3a1 1 0 0 0 .8.4H19a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"
+      />
+      <circle cx="12" cy="13" r="3.25" />
+    </>
+  ),
+};
+
 export default function CvContent() {
   const { t } = useLanguage();
   const { cv } = t;
@@ -130,9 +190,32 @@ export default function CvContent() {
         <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400">
           {cv.interestsHeading}
         </h2>
-        <p className="mt-4 text-sm leading-relaxed text-slate-500">
-          {cv.interestsText}
-        </p>
+        <div className="mt-4 flex flex-wrap gap-3">
+          {cv.interests.map((interest) => (
+            <details
+              key={interest.key}
+              className="group rounded-xl border border-slate-200 px-3 py-2 open:border-amber-300 open:bg-amber-50/60"
+            >
+              <summary className="flex cursor-pointer list-none flex-col items-center gap-1 [&::-webkit-details-marker]:hidden">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  className="h-6 w-6 text-amber-600"
+                >
+                  {interestIcons[interest.key]}
+                </svg>
+                <span className="text-xs font-medium text-slate-600">
+                  {interest.label}
+                </span>
+              </summary>
+              <p className="mt-2 max-w-40 text-xs leading-relaxed text-slate-500">
+                {interest.description}
+              </p>
+            </details>
+          ))}
+        </div>
       </section>
 
       <section className="mt-12">

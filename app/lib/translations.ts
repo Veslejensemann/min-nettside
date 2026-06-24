@@ -381,15 +381,18 @@ const translations = {
         "Excel",
         "Faktorinvestering (Fama-French)",
         "Finansiell modellering",
+        "Forretningsjus",
         "Kvantitativ analyse",
         "Porteføljeteori",
         "PowerPoint",
         "Python",
         "R",
+        "Regnskap",
         "Regresjonsanalyse",
         "Risikostyring",
         "Samfunnsøkonomisk analyse",
         "Stata",
+        "Strategi",
         "Verdsettelse",
         "Word",
       ],
@@ -443,10 +446,51 @@ const translations = {
       languages: [
         "Norsk – Morsmål",
         "Engelsk – flytende skriftlig og muntlig",
+        "Japansk – nybegynnernivå muntlig og forståelse",
       ],
       interestsHeading: "Interesser",
-      interestsText:
-        "Golf, tennis og frisbeegolf hvor jeg setter pris på både konkurranse og det sosiale, matlaging som uttrykk for kreativitet, samt gaming med fokus på strategi og samarbeid.",
+      interests: [
+        {
+          key: "golf",
+          label: "Golf",
+          description:
+            "Setter pris på både konkurransen og det sosiale .",
+        },
+        {
+          key: "tennis",
+          label: "Tennis",
+          description: "Setter pris på både konkurranse og det sosiale.",
+        },
+        {
+          key: "frisbeegolf",
+          label: "Frisbeegolf",
+          description:
+            "Lavterskel sport med en avslappet sosial setting.",
+        },
+        {
+          key: "matlagning",
+          label: "Matlaging",
+          description:
+            "Et kreativt uttrykk, med krav til presisjon, orden, og kreativitet.",
+        },
+        {
+          key: "styrketrening",
+          label: "Styrketrening",
+          description:
+            "Trener styrke regelmessig for å holde meg i form og bygge disiplin.",
+        },
+        {
+          key: "gaming",
+          label: "Gaming",
+          description: "Gaming med fokus på kreativitet, strategi og samarbeid .",
+        },
+        {
+          key: "fotografering",
+          label: "Fotografering",
+          description:
+            "Liker å fange øyeblikk med mitt Fujifilm x100vi. Ta gjerne en titt i galleriet mitt for et utvalg bilder jeg har tatt.",
+        },
+      ],
     },
     master: {
       title: "Master",
@@ -492,7 +536,7 @@ const translations = {
         {
           title: "Oppsummeringsstatistikk (R)",
           excerpt:
-            "R-skript som henter ut verdier fra flere Excel-filer for hvert år (2002–2022) og beregner oppsummeringsstatistikk - gjennomsnitt, standardavvik, min/maks og antall observasjoner - for hver fil.",
+            "R-skript som henter ut verdier fra flere Excel-filer for hvert år og beregner oppsummeringsstatistikk - gjennomsnitt, standardavvik, min/maks og antall observasjoner - for hver fil.",
           href: "/documents/summary-stat-code.R",
         },
         {
@@ -513,6 +557,13 @@ const translations = {
             "R-skript som samler simulerte aksjekurser og avkastninger for åtte selskaper i to datasett, og eksporterer dem til Excel-filer.",
           href: "/documents/export-to-excel-code.R",
         },
+        {
+          title: "Manuell Neddiskonteringskalkulator (DCF) (Py)",
+          excerpt:
+            "Python-kode som du automatisk ber deg skrive inn tallene dine manuelt for neddiskontering, og sier om det er lønnsomt eller ikke.",
+          href: "/documents/DCF Calculator.py",
+        },
+        
       ],
     },
     prosjekter: {
@@ -959,14 +1010,18 @@ const translations = {
         "Excel",
         "Factor investing (Fama-French)",
         "Financial modeling",
+        "Business law",
         "Quantitative analysis",
         "Portfolio theory",
         "PowerPoint",
         "Python",
         "R",
+        "Accounting",
         "Regression analysis",
         "Risk management",
+        "Economic analysis",
         "Stata",
+        "Strategy",
         "Valuation",
         "Word",
       ],
@@ -1018,12 +1073,55 @@ const translations = {
       coursesDownloadLabel: "View certificate",
       languagesHeading: "Languages",
       languages: [
-        "Norwegian – fluent in writing and oral",
-        "English – fluent in writing and oral",
+        "Norwegian – Native",
+        "English – Fluent (written and spoken)",
+        "Swedish – Native-level understanding",
+        "Danish – Basic-level understanding",
+        "Japanese – Beginner-level speaking and comprehension",
+
       ],
       interestsHeading: "Interests",
-      interestsText:
-        "Golf, tennis and frisbee golf, appreciating both the competitive and social aspects, cooking as an outlet for creativity and attention to detail, and gaming with a focus on strategy and teamwork.",
+      interests: [
+        {
+          key: "golf",
+          label: "Golf",
+          description:
+            "I enjoy both the competitive and social side of a round of golf.",
+        },
+        {
+          key: "tennis",
+          label: "Tennis",
+          description: "Tennis for both competition and the social side.",
+        },
+        {
+          key: "frisbeegolf",
+          label: "Disc Golf",
+          description: "Combines precision with a relaxed, social setting.",
+        },
+        {
+          key: "matlagning",
+          label: "Cooking",
+          description:
+            "A creative outlet — I like experimenting with new dishes.",
+        },
+        {
+          key: "styrketrening",
+          label: "Strength Training",
+          description:
+            "Train regularly to stay fit and build discipline.",
+        },
+        {
+          key: "gaming",
+          label: "Gaming",
+          description: "Gaming with a focus on strategy and teamwork.",
+        },
+        {
+          key: "fotografering",
+          label: "Photography",
+          description:
+            "I like capturing moments and perspectives through the camera, especially while traveling and in nature.",
+        },
+      ],
     },
     master: {
       title: "Master's",
@@ -1069,7 +1167,7 @@ const translations = {
         {
           title: "Summary Statistics (R)",
           excerpt:
-            "An R script that pulls values from several Excel files for each year (2002–2022) and calculates summary statistics - mean, standard deviation, min/max and number of observations - for each file.",
+            "An R script that pulls values from several Excel files for each year and calculates summary statistics - mean, standard deviation, min/max and number of observations - for each file.",
           href: "/documents/summary-stat-code.R",
         },
         {
@@ -1089,6 +1187,12 @@ const translations = {
           excerpt:
             "An R script that compiles simulated stock prices and returns for eight companies into two datasets and exports them to Excel files.",
           href: "/documents/export-to-excel-code.R",
+        },
+        {
+          title: "Manual DCF Calculator (Py)",
+          excerpt:
+            "Python code that automatically prompts you to manually enter your numbers for discounted cash flow analysis, and tells you whether the investment is profitable or not.",
+          href: "/documents/DCF Calculator.py",
         },
       ],
     },
