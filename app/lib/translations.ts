@@ -27,7 +27,7 @@ const translations = {
       heroParagraphThree:
         "Denne siden er blant annet et resultat av den nysgjerrigheten. Her finner du CV-en min med utdanning, erfaring og kompetanse, masteroppgaven min om ESG og Fama-French-faktormodeller, kode jeg har skrevet i Python og R, prosjekter jeg er spesielt stolt av, og et bildegalleri.",
       heroParagraphFour:
-        "Ta gjerne kontakt om du vil si hei.",
+        "Jeg er alltid åpen for nye muligheter, så ta gjerne kontakt.",
       exploreHeading: "Utforsk siden",
       sections: {
         cv: {
@@ -522,7 +522,7 @@ const translations = {
     },
     galleri: {
       title: "Galleri",
-      intro: "Et utvalg bilder jeg har tatt som hobbyfotograf.",
+      intro: "Et utvalg bilder jeg har tatt som hobbyfotograf med Iphone, eller mitt Fujifilm X100VI.",
       emptyTitle: "Ingen bilder lastet opp ennå.",
       emptyHintPrefix: "Legg bilder i ",
       emptyHintSuffix: " for å vise dem her.",
@@ -539,37 +539,58 @@ const translations = {
           title: "Oppsummeringsstatistikk (R)",
           excerpt:
             "R-skript som henter ut verdier fra flere Excel-filer for hvert år og beregner oppsummeringsstatistikk - gjennomsnitt, standardavvik, min/maks og antall observasjoner - for hver fil.",
+          tags: ["R", "Excel", "Statistikk"],
           href: "/documents/summary-stat-code.R",
         },
         {
           title: "Excel til CSV-konverterer (R)",
           excerpt:
             "R-skript som leser aksjekursdata fra en Excel-fil og deler den opp i separate CSV-filer for hvert enkelt selskap.",
+          tags: ["R", "Excel", "CSV"],
           href: "/documents/excel-to-csv-converter-code.R",
         },
         {
           title: "Regresjonsutfylling av ESG-data (R)",
           excerpt:
             "R-skript som bruker lineær regresjon mot år for å estimere og fylle inn manglende verdier i et ESG-datasett, og lagrer det komplette datasettet til en ny Excel-fil.",
+          tags: ["R", "Excel", "ESG", "Regresjon"],
           href: "/documents/regression-esg-code.R",
         },
         {
           title: "Eksporter til Excel (R)",
           excerpt:
             "R-skript som samler simulerte aksjekurser og avkastninger for åtte selskaper i to datasett, og eksporterer dem til Excel-filer.",
+          tags: ["R", "Excel"],
           href: "/documents/export-to-excel-code.R",
         },
         {
           title: "Manuell Neddiskonteringskalkulator (DCF) (Py)",
           excerpt:
             "Python-kode som du automatisk ber deg skrive inn tallene dine manuelt for neddiskontering, og sier om det er lønnsomt eller ikke.",
+          tags: ["Python", "DCF", "Finans"],
           href: "/documents/DCF Calculator.py",
         },
         {
           title: "Topp 5 aksjer etter avkastning (Py)",
           excerpt:
             "Python-script som leser aksjedata fra en CSV-fil med Oslo Børs-aksjer, beregner 30-dagers avkastning for hvert selskap og skriver ut de fem aksjene med høyest avkastning.",
+          tags: ["Python", "CSV", "Oslo Børs"],
           href: "/documents/top 5 stocks return.py",
+        },
+        {
+          title: "Analyse av glidende gjennomsnitt – Oslo Børs (Py)",
+          excerpt:
+            "Jupyter Notebook som henter 5 års kursdata for utvalgte Oslo Børs-aksjer via yfinance, beregner 50- og 200-dagers glidende gjennomsnitt for hvert selskap, visualiserer resultatene interaktivt med Plotly og eksporterer analysen til Excel.",
+          tags: ["Python", "Pandas", "Notebook", "yfinance", "Plotly", "Oslo Børs"],
+          href: "/documents/analyse_glidende_gjenomsnitt.ipynb",
+        },
+        {
+          title: "The Farmer Was Replaced",
+          excerpt:
+            "Et spill der du programmerer en robot til å automatisere en gård ved hjelp av kode. Jeg brukte Python-lignende logikk for å effektivisere høsting, planting og ressursforvaltning — og fikk oppleve hvor morsomt det er å løse problemer med kode.",
+          tags: ["Gaming", "Programmering", "Python"],
+          href: "",
+          video: "/videos/The Farmer Was Replaced.mp4",
         },
       ],
     },
@@ -623,15 +644,6 @@ const translations = {
           tags: ["Python", "Coursera", "Programmering"],
           href: "/documents/python-data-structures-certificate.pdf",
         },
-        {
-          title: "The Farmer Was Replaced",
-          startYear: 2026,
-          description:
-            "Et spill der du programmerer en robot til å automatisere en gård ved hjelp av kode. Jeg brukte Python-lignende logikk for å effektivisere høsting, planting og ressursforvaltning — og fikk oppleve hvor morsomt det er å løse problemer med kode.",
-          tags: ["Gaming", "Programmering", "Python"],
-          href: "",
-          video: "/videos/The Farmer Was Replaced.mp4",
-        },
       ],
     },
     kontakt: {
@@ -672,7 +684,7 @@ const translations = {
       heroParagraphThree:
         "This site is a result of that curiosity. Here you'll find my CV with education, experience and skills, my master's thesis on ESG and the Fama-French factor models, code I've written in Python and R, projects I'm especially proud of, and a photo gallery.",
       heroParagraphFour:
-        "Feel free to reach out if you'd like to say hi.",
+        "I'm always open to new opportunities, so feel free to reach out.",
       exploreHeading: "Explore the site",
       sections: {
         cv: {
@@ -1169,7 +1181,7 @@ const translations = {
     },
     galleri: {
       title: "Gallery",
-      intro: "A selection of photos I've taken as a hobby photographer.",
+      intro: "A selection of photos I've taken as a hobby photographer with Iphone, or my Fujifilm X100VI.",
       emptyTitle: "No photos uploaded yet.",
       emptyHintPrefix: "Add photos to ",
       emptyHintSuffix: " to display them here.",
@@ -1186,37 +1198,58 @@ const translations = {
           title: "Summary Statistics (R)",
           excerpt:
             "An R script that pulls values from several Excel files for each year and calculates summary statistics - mean, standard deviation, min/max and number of observations - for each file.",
+          tags: ["R", "Excel", "Statistics"],
           href: "/documents/summary-stat-code.R",
         },
         {
           title: "Excel to CSV Converter (R)",
           excerpt:
             "An R script that reads stock price data from an Excel file and splits it into separate CSV files for each individual company.",
+          tags: ["R", "Excel", "CSV"],
           href: "/documents/excel-to-csv-converter-code.R",
         },
         {
           title: "ESG Data Regression Fill (R)",
           excerpt:
             "An R script that uses linear regression against year to estimate and fill in missing values in an ESG dataset, then saves the completed dataset to a new Excel file.",
+          tags: ["R", "Excel", "ESG", "Regression"],
           href: "/documents/regression-esg-code.R",
         },
         {
           title: "Export to Excel (R)",
           excerpt:
             "An R script that compiles simulated stock prices and returns for eight companies into two datasets and exports them to Excel files.",
+          tags: ["R", "Excel"],
           href: "/documents/export-to-excel-code.R",
         },
         {
           title: "Manual DCF Calculator (Py)",
           excerpt:
             "Python code that automatically prompts you to manually enter your numbers for discounted cash flow analysis, and tells you whether the investment is profitable or not.",
+          tags: ["Python", "DCF", "Finance"],
           href: "/documents/DCF Calculator.py",
         },
         {
           title: "Top 5 Stocks by Return (Py)",
           excerpt:
             "Python script that reads stock data from a CSV file with Oslo Stock Exchange tickers, calculates the 30-day return for each company, and prints the five stocks with the highest return.",
+          tags: ["Python", "CSV", "Oslo Børs"],
           href: "/documents/top 5 stocks return.py",
+        },
+        {
+          title: "Moving Average Analysis – Oslo Stock Exchange (Py)",
+          excerpt:
+            "Jupyter Notebook that fetches 5 years of price data for selected Oslo Stock Exchange stocks via yfinance, calculates 50- and 200-day moving averages for each company, visualizes the results interactively with Plotly, and exports the analysis to Excel.",
+          tags: ["Python", "Pandas", "Notebook", "yfinance", "Plotly", "Oslo Børs"],
+          href: "/documents/analyse_glidende_gjenomsnitt.ipynb",
+        },
+        {
+          title: "The Farmer Was Replaced",
+          excerpt:
+            "A game where you program a robot to automate a farm using code. I used Python-like logic to optimize harvesting, planting and resource management — and discovered just how enjoyable it is to solve problems through code.",
+          tags: ["Gaming", "Programming", "Python"],
+          href: "",
+          video: "/videos/The Farmer Was Replaced.mp4",
         },
       ],
     },
@@ -1269,15 +1302,6 @@ const translations = {
             "Completed the first two courses in the Python for Everybody specialization from the University of Michigan on Coursera: 'Programming for Everybody (Getting Started with Python)' and 'Python Data Structures'. The courses cover core programming concepts such as variables, loops, functions, and data structures like lists, dictionaries, and tuples in Python.",
           tags: ["Python", "Coursera", "Programming"],
           href: "/documents/python-data-structures-certificate.pdf",
-        },
-        {
-          title: "The Farmer Was Replaced",
-          startYear: 2026,
-          description:
-            "A game where you program a robot to automate a farm using code. I used Python-like logic to optimize harvesting, planting and resource management — and discovered just how enjoyable it is to solve problems through code.",
-          tags: ["Gaming", "Programming", "Python"],
-          href: "",
-          video: "/videos/The Farmer Was Replaced.mp4",
         },
       ],
     },

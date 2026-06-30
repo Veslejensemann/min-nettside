@@ -25,14 +25,37 @@ export default function BloggContent() {
             <p className="mt-3 text-sm leading-relaxed text-slate-500">
               {post.excerpt}
             </p>
-            <a
-              href={post.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-block text-sm font-medium text-amber-700 hover:text-amber-800"
-            >
-              {blogg.downloadLabel}
-            </a>
+            {"video" in post && post.video && (
+              <video
+                className="mt-3 w-full rounded-lg"
+                controls
+                preload="metadata"
+              >
+                <source src={post.video as string} type="video/mp4" />
+              </video>
+            )}
+            {"tags" in post && Array.isArray(post.tags) && post.tags.length > 0 && (
+              <div className="mt-4 flex flex-wrap gap-2">
+                {(post.tags as string[]).map((tag, j) => (
+                  <span
+                    key={j}
+                    className="rounded-full bg-slate-100 px-3 py-1 text-xs text-slate-600"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+            {post.href && (
+              <a
+                href={post.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block text-sm font-medium text-amber-700 hover:text-amber-800"
+              >
+                {blogg.downloadLabel}
+              </a>
+            )}
           </article>
         ))}
       </div>
