@@ -110,6 +110,9 @@ export default function Home() {
           <p className="text-lg leading-relaxed text-slate-600">
             {t.home.heroParagraphThree}
           </p>
+          <p className="text-lg leading-relaxed text-slate-600">
+            {t.home.heroParagraphFour}
+          </p>
         </div>
       </section>
 

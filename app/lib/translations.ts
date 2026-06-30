@@ -23,9 +23,11 @@ const translations = {
       heroParagraph:
         "Siviløkonom fra BI med fordypning i finans.",
       heroParagraphTwo:
-        "For tiden er jeg opptatt av å lære meg mer om AI og maskinlæring, og hvordan det kan brukes i for eksempel finans og analyse.",
+        "For tiden er jeg opptatt av å lære meg mer om AI og maskinlæring, og hvordan det kan brukes i finans og analyse.",
       heroParagraphThree:
-        "Denne siden er blant annet et resultat av denne nyskjerrigheten.",
+        "Denne siden er blant annet et resultat av den nysgjerrigheten. Her finner du CV-en min med utdanning, erfaring og kompetanse, masteroppgaven min om ESG og Fama-French-faktormodeller, kode jeg har skrevet i Python og R, prosjekter jeg er spesielt stolt av, og et bildegalleri.",
+      heroParagraphFour:
+        "Ta gjerne kontakt om du vil si hei.",
       exploreHeading: "Utforsk siden",
       sections: {
         cv: {
@@ -666,9 +668,11 @@ const translations = {
       heroParagraph:
         "A Graduate Economist from BI specializing in finance.",
       heroParagraphTwo:
-        "I'm also focused on learning more about AI and machine learning, and how it can be applied to, for example, finance and analysis.",
+        "I'm also focused on learning more about AI and machine learning, and how it can be applied to finance and analysis.",
       heroParagraphThree:
-        "This site is, among other things, a result of that curiosity.",
+        "This site is a result of that curiosity. Here you'll find my CV with education, experience and skills, my master's thesis on ESG and the Fama-French factor models, code I've written in Python and R, projects I'm especially proud of, and a photo gallery.",
+      heroParagraphFour:
+        "Feel free to reach out if you'd like to say hi.",
       exploreHeading: "Explore the site",
       sections: {
         cv: {
