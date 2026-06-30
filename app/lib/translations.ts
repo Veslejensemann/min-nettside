@@ -563,7 +563,12 @@ const translations = {
             "Python-kode som du automatisk ber deg skrive inn tallene dine manuelt for neddiskontering, og sier om det er lønnsomt eller ikke.",
           href: "/documents/DCF Calculator.py",
         },
-        
+        {
+          title: "Topp 5 aksjer etter avkastning (Py)",
+          excerpt:
+            "Python-script som leser aksjedata fra en CSV-fil med Oslo Børs-aksjer, beregner 30-dagers avkastning for hvert selskap og skriver ut de fem aksjene med høyest avkastning.",
+          href: "/documents/top 5 stocks return.py",
+        },
       ],
     },
     prosjekter: {
@@ -615,6 +620,15 @@ const translations = {
             "Fullført de to første kursene i Python for Everybody-spesialiseringen fra University of Michigan på Coursera: 'Programming for Everybody (Getting Started with Python)' og 'Python Data Structures'. Kursene dekker grunnleggende programmeringskonsepter som variabler, løkker, funksjoner og datastrukturer som lister, dictionaries og tupler i Python.",
           tags: ["Python", "Coursera", "Programmering"],
           href: "/documents/python-data-structures-certificate.pdf",
+        },
+        {
+          title: "The Farmer Was Replaced",
+          startYear: 2026,
+          description:
+            "Et spill der du programmerer en robot til å automatisere en gård ved hjelp av kode. Jeg brukte Python-lignende logikk for å effektivisere høsting, planting og ressursforvaltning — og fikk oppleve hvor morsomt det er å løse problemer med kode.",
+          tags: ["Gaming", "Programmering", "Python"],
+          href: "",
+          video: "/videos/The Farmer Was Replaced.mp4",
         },
       ],
     },
@@ -1194,6 +1208,12 @@ const translations = {
             "Python code that automatically prompts you to manually enter your numbers for discounted cash flow analysis, and tells you whether the investment is profitable or not.",
           href: "/documents/DCF Calculator.py",
         },
+        {
+          title: "Top 5 Stocks by Return (Py)",
+          excerpt:
+            "Python script that reads stock data from a CSV file with Oslo Stock Exchange tickers, calculates the 30-day return for each company, and prints the five stocks with the highest return.",
+          href: "/documents/top 5 stocks return.py",
+        },
       ],
     },
     prosjekter: {
@@ -1245,6 +1265,15 @@ const translations = {
             "Completed the first two courses in the Python for Everybody specialization from the University of Michigan on Coursera: 'Programming for Everybody (Getting Started with Python)' and 'Python Data Structures'. The courses cover core programming concepts such as variables, loops, functions, and data structures like lists, dictionaries, and tuples in Python.",
           tags: ["Python", "Coursera", "Programming"],
           href: "/documents/python-data-structures-certificate.pdf",
+        },
+        {
+          title: "The Farmer Was Replaced",
+          startYear: 2026,
+          description:
+            "A game where you program a robot to automate a farm using code. I used Python-like logic to optimize harvesting, planting and resource management — and discovered just how enjoyable it is to solve problems through code.",
+          tags: ["Gaming", "Programming", "Python"],
+          href: "",
+          video: "/videos/The Farmer Was Replaced.mp4",
         },
       ],
     },

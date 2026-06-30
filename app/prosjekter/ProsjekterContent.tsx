@@ -9,6 +9,7 @@ type Project = {
   description: string | string[];
   tags: string[];
   href: string;
+  video?: string;
 };
 
 function ProjectCard({
@@ -38,6 +39,15 @@ function ProjectCard({
           {project.startYear}
         </span>
       </div>
+      {project.video && (
+        <video
+          className="mt-3 w-full rounded-lg"
+          controls
+          preload="metadata"
+        >
+          <source src={project.video} type="video/mp4" />
+        </video>
+      )}
       <div className="mt-2 text-sm leading-relaxed text-slate-500">
         {expanded
           ? paragraphs.map((avsnitt, k) => (
