@@ -442,6 +442,20 @@ const translations = {
           tags: ["Python", "Programmering", "Datastrukturer"],
           href: "/documents/python-data-structures-certificate.pdf",
         },
+        {
+          text: "Career Essentials in Generative AI (Microsoft og LinkedIn)",
+          description:
+            "Kurs fra Microsoft og LinkedIn Learning om grunnleggende begreper innen generativ KI, inkludert hvordan store språkmodeller fungerer, praktisk bruk av KI-verktøy i arbeidslivet, samt etiske og ansvarlige prinsipper for KI-bruk.",
+          tags: ["Generativ KI", "LLM", "KI-etikk", "Opplæring i Microsoft Copilot"],
+          href: "/documents/career-essentials-generative-ai-certificate.pdf",
+        },
+        {
+          text: "Your Top AI Questions Answered: AI Literacy for Everyone",
+          description:
+            "Kurs fra LinkedIn Learning som svarer på de vanligste spørsmålene om kunstig intelligens, og gir en praktisk innføring i KI-begreper for å øke generell KI-forståelse i arbeidshverdagen.",
+          tags: ["KI-forståelse", "Generativ KI", "Teknologitrender"],
+          href: "/documents/ai-literacy-for-everyone-certificate.pdf",
+        },
       ],
       coursesDownloadLabel: "Se dokumentasjon",
       languagesHeading: "Språk",
@@ -1098,6 +1112,20 @@ const translations = {
             "Part of the Python for Everybody specialization from the University of Michigan. Covers Python fundamentals such as variables, loops and functions, along with data structures like lists, dictionaries, tuples and file handling.",
           tags: ["Python", "Programming", "Data Structures"],
           href: "/documents/python-data-structures-certificate.pdf",
+        },
+        {
+          text: "Career Essentials in Generative AI (Microsoft and LinkedIn)",
+          description:
+            "Course from Microsoft and LinkedIn Learning covering the fundamentals of generative AI, including how large language models work, practical use of AI tools in the workplace, and responsible and ethical AI principles.",
+          tags: ["Generative AI", "LLMs", "AI Ethics", "Microsoft Copilot Training"],
+          href: "/documents/career-essentials-generative-ai-certificate.pdf",
+        },
+        {
+          text: "Your Top AI Questions Answered: AI Literacy for Everyone",
+          description:
+            "Course from LinkedIn Learning answering the most common questions about artificial intelligence, providing a practical introduction to AI concepts to build everyday AI literacy in the workplace.",
+          tags: ["AI Literacy", "Generative AI", "Tech Trends"],
+          href: "/documents/ai-literacy-for-everyone-certificate.pdf",
         },
       ],
       coursesDownloadLabel: "View certificate",

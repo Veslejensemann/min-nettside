@@ -60,7 +60,10 @@
       "Bash(netstat -ano)",
       "Bash(git checkout *)",
       "Bash(ls -la \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Summary Stat Code R.R\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Excel to CSV Converter Code R.R\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Regresson ESG Code R.R\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Export to EXCEL Code R.R\")",
-      "Read(//c/Users/turtl/Desktop/**)"
+      "Read(//c/Users/turtl/Desktop/**)",
+      "Bash(cp \"C:\\\\Users\\\\turtl\\\\Desktop\\\\CertificateOfCompletion_Career Essentials in Generative AI by Microsoft and LinkedIn.pdf\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\career-essentials-generative-ai-certificate.pdf\")",
+      "Bash(cp \"C:\\\\Users\\\\turtl\\\\Desktop\\\\CertificateOfCompletion_Your Top AI Questions Answered AI Literacy for Everyone.pdf\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\ai-literacy-for-everyone-certificate.pdf\")",
+      "PowerShell($conn = Get-NetTCPConnection -LocalPort 3000 -State Listen -ErrorAction SilentlyContinue; if \\($conn\\) { $pid_ = $conn.OwningProcess; Stop-Process -Id $pid_ -Force; \"Stopped PID $pid_\" } else { \"No process on port 3000\" })"
     ],
     "additionalDirectories": [
       "C:\\Users\\turtl\\Desktop\\Dokumenter - Søknader"
