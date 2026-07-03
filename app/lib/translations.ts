@@ -599,6 +599,13 @@ const translations = {
           href: "/documents/analyse_glidende_gjenomsnitt.ipynb",
         },
         {
+          title: "Triangulær arbitrasje (Py)",
+          excerpt:
+            "Jupyter Notebook som beregner triangulær arbitrasje mellom tre valutaer (USD, EUR og NOK) ved å sammenligne kryssede vekslingskurser mot bankens priser, tester begge handelsruter og finner hvilken som gir størst profitt.",
+          tags: ["Python", "Notebook", "Valuta", "Arbitrasje", "Finans"],
+          href: "/documents/Triangulær arbitrasje.ipynb",
+        },
+        {
           title: "The Farmer Was Replaced",
           excerpt:
             "Et spill der du programmerer en robot til å automatisere en gård ved hjelp av kode. Jeg brukte Python-lignende logikk for å effektivisere høsting, planting og ressursforvaltning — og fikk oppleve hvor morsomt det er å løse problemer med kode.",
@@ -1270,6 +1277,13 @@ const translations = {
             "Jupyter Notebook that fetches 5 years of price data for selected Oslo Stock Exchange stocks via yfinance, calculates 50- and 200-day moving averages for each company, visualizes the results interactively with Plotly, and exports the analysis to Excel.",
           tags: ["Python", "Pandas", "Notebook", "yfinance", "Plotly", "Oslo Børs"],
           href: "/documents/analyse_glidende_gjenomsnitt.ipynb",
+        },
+        {
+          title: "Triangular Arbitrage (Py)",
+          excerpt:
+            "Jupyter Notebook that calculates triangular arbitrage across three currencies (USD, EUR and NOK) by comparing cross exchange rates against the bank's quoted prices, testing both trade routes to find the most profitable one.",
+          tags: ["Python", "Notebook", "Currency", "Arbitrage", "Finance"],
+          href: "/documents/Triangulær arbitrasje.ipynb",
         },
         {
           title: "The Farmer Was Replaced",
