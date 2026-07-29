@@ -665,6 +665,14 @@ const translations = {
           tags: ["Python", "Coursera", "Programmering"],
           href: "/documents/python-data-structures-certificate.pdf",
         },
+        {
+          title: "Overflytsmodellen",
+          startYear: 2026,
+          description:
+            "Et eget notat der jeg skisserer en ny metode for å sette opp statsbudsjettet, inspirert av fossefallsstrukturen («waterfall») fra finansverdenen. I stedet for at alle sektorer forhandler parallelt om sine rammer, rangeres statens oppgaver i en prioriteringstrapp: de øverste trinnene – som pensjon, politi og eldreomsorg – fylles først til en objektivt fastsatt standard, mens det som blir igjen renner videre nedover. Formål lenger ned finansieres kun dersom trinnene over faktisk er dekket. Notatet bruker tallene fra statsbudsjettet 2026 til å illustrere trappen, og drøfter også styringsmodellen, en automatisk overskuddsregel og de største svakhetene ved forslaget.",
+          tags: ["Statsbudsjett", "Politikk", "Prioritering"],
+          href: "/documents/overflytsmodellen.pdf",
+        },
       ],
     },
     kontakt: {
@@ -1344,6 +1352,14 @@ const translations = {
             "Completed the first two courses in the Python for Everybody specialization from the University of Michigan on Coursera: 'Programming for Everybody (Getting Started with Python)' and 'Python Data Structures'. The courses cover core programming concepts such as variables, loops, functions, and data structures like lists, dictionaries, and tuples in Python.",
           tags: ["Python", "Coursera", "Programming"],
           href: "/documents/python-data-structures-certificate.pdf",
+        },
+        {
+          title: "The Overflow Model",
+          startYear: 2026,
+          description:
+            "A memo where I sketch out a new way to build the national budget, inspired by the waterfall structure used in finance. Instead of every sector negotiating its budget in parallel, the state's tasks are ranked in a priority staircase: the top steps – such as pensions, police and elderly care – are filled first up to an objectively defined standard, and whatever is left flows down to the next step. Purposes further down are only funded once the steps above are actually covered. The memo uses figures from Norway's 2026 state budget to illustrate the staircase, and also discusses the governance model, an automatic surplus rule, and the biggest weaknesses of the proposal.",
+          tags: ["State Budget", "Policy", "Prioritization"],
+          href: "/documents/overflytsmodellen.pdf",
         },
       ],
     },
