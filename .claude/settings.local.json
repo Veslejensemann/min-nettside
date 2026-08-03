@@ -65,7 +65,8 @@
       "Bash(cp \"C:\\\\Users\\\\turtl\\\\Desktop\\\\CertificateOfCompletion_Your Top AI Questions Answered AI Literacy for Everyone.pdf\" \"C:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\ai-literacy-for-everyone-certificate.pdf\")",
       "PowerShell($conn = Get-NetTCPConnection -LocalPort 3000 -State Listen -ErrorAction SilentlyContinue; if \\($conn\\) { $pid_ = $conn.OwningProcess; Stop-Process -Id $pid_ -Force; \"Stopped PID $pid_\" } else { \"No process on port 3000\" })",
       "Bash(ls -la \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Min Python Kode\\\\\" 2>&1 | head -50)",
-      "Bash(cp \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Min Python Kode\\\\Triangulær arbitrasje.ipynb\" \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\Triangulær arbitrasje.ipynb\" && ls \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\" | grep -i triang)"
+      "Bash(cp \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Min Python Kode\\\\Triangulær arbitrasje.ipynb\" \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\Triangulær arbitrasje.ipynb\" && ls \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\" | grep -i triang)",
+      "Bash(grep -i \"\\\\.py$\")"
     ],
     "additionalDirectories": [
       "C:\\Users\\turtl\\Desktop\\Dokumenter - Søknader",

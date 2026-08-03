@@ -53,7 +53,7 @@ const sectionHrefs = {
   cv: "/cv",
   master: "/master",
   prosjekter: "/prosjekter",
-  blogg: "/blogg",
+  blogg: "/kode",
   galleri: "/galleri",
   kontakt: "/kontakt",
 } as const;

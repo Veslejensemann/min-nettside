@@ -613,6 +613,13 @@ const translations = {
           href: "",
           video: "/videos/The Farmer Was Replaced.mp4",
         },
+        {
+          title: "Madrassfondet (Py)",
+          excerpt:
+            "Et lekent Python-program med grafisk grensesnitt (tkinter) som regner ut hvor stor madrass du ville trengt for å gjemme hele Oljefondet i kontanter, og sammenligner lengden med kjente avstander som jordas omkrets eller Norge på langs.",
+          tags: ["Python", "Tkinter", "Oljefondet"],
+          href: "/documents/madrassfondet.py",
+        },
       ],
     },
     prosjekter: {
@@ -1300,6 +1307,13 @@ const translations = {
           tags: ["Gaming", "Programming", "Python"],
           href: "",
           video: "/videos/The Farmer Was Replaced.mp4",
+        },
+        {
+          title: "The Mattress Fund (Py)",
+          excerpt:
+            "A playful Python program with a graphical interface (tkinter) that calculates how big a mattress you'd need to hide Norway's entire Oil Fund in cash, comparing the length to well-known distances like the circumference of the earth or the length of Norway.",
+          tags: ["Python", "Tkinter", "Oil Fund"],
+          href: "/documents/madrassfondet.py",
         },
       ],
     },

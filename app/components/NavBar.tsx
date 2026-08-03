@@ -13,7 +13,7 @@ export default function NavBar() {
     { href: "/cv", label: t.nav.cv },
     { href: "/master", label: t.nav.master },
     { href: "/prosjekter", label: t.nav.prosjekter },
-    { href: "/blogg", label: t.nav.blogg },
+    { href: "/kode", label: t.nav.blogg },
     { href: "/galleri", label: t.nav.galleri },
     { href: "/kontakt", label: t.nav.kontakt },
   ];
