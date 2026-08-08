@@ -620,6 +620,20 @@ const translations = {
           tags: ["Python", "Tkinter", "Oljefondet"],
           href: "/documents/madrassfondet.py",
         },
+        {
+          title: "Monte Carlo-simulering av portefølje (Py)",
+          excerpt:
+            "Python-script som simulerer tusenvis av mulige fremtidsbaner for en portefølje med geometrisk brownsk bevegelse, inkludert et fast månedlig innskudd, og viser median-, pessimist- og optimistscenario i plott.",
+          tags: ["Python", "Monte Carlo", "NumPy", "Matplotlib", "Finans"],
+          href: "/documents/Monte Carlo Portfolio.py",
+        },
+        {
+          title: "Monte Carlo-simulering av aksje (Py)",
+          excerpt:
+            "Samme Monte Carlo-modell uten løpende innskudd - simulerer utviklingen til en enkelt investering over tid og viser sannsynligheten for tap ved ulike utfall.",
+          tags: ["Python", "Monte Carlo", "NumPy", "Matplotlib", "Finans"],
+          href: "/documents/Monte Carlo Stock.py",
+        },
       ],
     },
     prosjekter: {
@@ -1314,6 +1328,20 @@ const translations = {
             "A playful Python program with a graphical interface (tkinter) that calculates how big a mattress you'd need to hide Norway's entire Oil Fund in cash, comparing the length to well-known distances like the circumference of the earth or the length of Norway.",
           tags: ["Python", "Tkinter", "Oil Fund"],
           href: "/documents/madrassfondet.py",
+        },
+        {
+          title: "Monte Carlo Portfolio Simulation (Py)",
+          excerpt:
+            "Python script that simulates thousands of possible future paths for a portfolio using geometric Brownian motion, including a fixed monthly deposit, and plots the median, pessimistic and optimistic scenarios.",
+          tags: ["Python", "Monte Carlo", "NumPy", "Matplotlib", "Finance"],
+          href: "/documents/Monte Carlo Portfolio.py",
+        },
+        {
+          title: "Monte Carlo Stock Simulation (Py)",
+          excerpt:
+            "The same Monte Carlo model without recurring deposits - simulates the path of a single investment over time and shows the probability of a loss across the different outcomes.",
+          tags: ["Python", "Monte Carlo", "NumPy", "Matplotlib", "Finance"],
+          href: "/documents/Monte Carlo Stock.py",
         },
       ],
     },

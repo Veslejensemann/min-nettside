@@ -66,7 +66,10 @@
       "PowerShell($conn = Get-NetTCPConnection -LocalPort 3000 -State Listen -ErrorAction SilentlyContinue; if \\($conn\\) { $pid_ = $conn.OwningProcess; Stop-Process -Id $pid_ -Force; \"Stopped PID $pid_\" } else { \"No process on port 3000\" })",
       "Bash(ls -la \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Min Python Kode\\\\\" 2>&1 | head -50)",
       "Bash(cp \"C:\\\\Users\\\\turtl\\\\Desktop\\\\Min Python Kode\\\\Triangulær arbitrasje.ipynb\" \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\\\\Triangulær arbitrasje.ipynb\" && ls \"c:\\\\Users\\\\turtl\\\\Desktop\\\\min-nettside\\\\public\\\\documents\" | grep -i triang)",
-      "Bash(grep -i \"\\\\.py$\")"
+      "Bash(grep -i \"\\\\.py$\")",
+      "Bash(cp \"C:/Users/turtl/Desktop/Min Python Kode/Monte carlo port.py\" \"C:/Users/turtl/Desktop/min-nettside/public/documents/Monte Carlo Portfolio.py\")",
+      "Bash(cp \"C:/Users/turtl/Desktop/Min Python Kode/monte carlo stock.py\" \"C:/Users/turtl/Desktop/min-nettside/public/documents/Monte Carlo Stock.py\")",
+      "Bash(node -e \"require\\('ts-node'\\)\")"
     ],
     "additionalDirectories": [
       "C:\\Users\\turtl\\Desktop\\Dokumenter - Søknader",
